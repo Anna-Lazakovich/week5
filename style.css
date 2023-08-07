@@ -1,0 +1,84 @@
+nav {
+    width: 100vw;
+    background-color: rgb(199, 196, 196);
+    padding-bottom: 30px;
+}
+
+.menu {
+    display: inline;
+    box-sizing: border-box;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: black;   
+}
+
+.content {
+    display: flex;
+    padding: 60px;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(237, 243, 156);
+}
+
+.main_0 {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+
+.add_content {
+    box-sizing: border-box;
+    padding: 60px;
+    text-align: start;
+}
+
+main {
+    display: flex;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 15px 5px;
+    margin: 15px 5px;
+    background-color: rgb(214, 226, 48);
+    text-align: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+#first, #second {
+    box-sizing: border-box;
+    width: 45%;
+}
+
+#third {
+    border: 1px solid red;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.add_content {
+    flex-grow: 1;
+    background-color: rgb(191, 243, 156);
+}
+
+footer {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    justify-content: space-between;
+    background-color: rgb(223, 216, 216);
+}
+
+.footer_menu {
+    padding: 15px 5px;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+}
